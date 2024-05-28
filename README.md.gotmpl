@@ -1,0 +1,19 @@
+{{ template "chart.header" . }}
+
+A Helm chart to deploy a [Bluesky PDS](https://github.com/bluesky-social/pds) on Kubernetes.
+
+{{ template "chart.versionBadge" . }}{{ template "chart.typeBadge" . }}{{ template "chart.appVersionBadge" . }}
+
+## Installing the Chart
+
+This chart is not yet published. You will need to clone this repository and install the chart from local source.
+
+```bash
+helm install bluesky-pds -f values.yaml ./bluesky-pds
+```
+
+{{ template "chart.requirementsSection" . }}
+
+{{ template "chart.valuesSection" . }}
+
+{{ template "helm-docs.versionFooter" . }}
